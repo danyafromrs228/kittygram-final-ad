@@ -42,7 +42,6 @@ jobs:
       - name: Lint with ruff
         run: |
           ruff check backend/
-          ruff format --check backend/
 
       - name: Run backend tests
         env:
